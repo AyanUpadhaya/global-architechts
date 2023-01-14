@@ -1,0 +1,121 @@
+/* Work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+/* globals */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Custom properties */
+:root{
+    --primary-color:#FF900E;
+    --secondary-color:#727272;
+    --third-color:#131313;
+    --bg-alpha: rgba(255, 144, 14, 0.1);
+}
+
+
+/*------------HEADER-------------- */
+.headers{
+    /* padding:50px 228px; */
+    border:1px solid var(--third-color);
+}
+.headers .navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    
+    margin-bottom: 100px;
+
+}
+.navbar .brand{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--third-color);
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.headers .navbar .nav-list{
+    list-style-type:none ;
+    border: 1px solid black;
+    display: flex;
+    gap: 50px;
+    padding-top: 63px;
+    padding-right: 50px;
+}
+.nav-list .nav-item{
+    margin:0;
+    padding:0;
+    
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+/* head content */
+/*  */
+
+.head-content{
+    width: 862px;
+    margin-inline:auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:33px;
+
+}
+.head-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+.head-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:var(--secondary-color);
+}
+.head-title,.head-description{
+    text-align: center;
+}
+
+/* button */
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* banner */
+.head-content .banner{
+    
+    width: 1200px;
+    margin-bottom: 130px;
+}
+.head-content .banner img{
+    width: 100%;
+    display: block;
+    margin-inline:auto;
+}
