@@ -324,13 +324,13 @@ body{
 }
 /* ----------CTA section---------- */
 .cta{
-    margin: 130px 140px;
+    margin-inline: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+    padding: 10px;
 }
-
 .cta-title{
     font-style: normal;
     font-weight: 700;
@@ -346,6 +346,9 @@ body{
     line-height: 26px;
     color:var(--secondary-color);
     margin-bottom: 50px;
+}
+.cta-content,.cta-person{
+    width: 550px;
 }
 
 /* ----Sponsor Section---------- */
@@ -391,4 +394,13 @@ body{
     padding:39px;
     text-align: center;
     color: #424242;
+}
+
+/* ---MEDIA QUERIES--------- */
+
+@media only screen and (max-width:576px){
+    body{
+        background-color: #FF900E;
+    }
+    
 }
