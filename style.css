@@ -481,6 +481,15 @@ body{
         align-items: center;
         gap:50px;
     }
+    .cta{
+        width: 100vw;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .cta-title,.cta-caption{
+        width: 100vw;
+        margin: 20px auto;
+    }
     .footer{
         margin: 0;
     }
