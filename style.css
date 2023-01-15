@@ -21,13 +21,11 @@ body{
 
 /*------------HEADER-------------- */
 .headers{
-    border:1px solid var(--third-color);
     background-color: var(--bg-alpha);
     padding-bottom: 45px;
     margin-bottom: 130px;
 }
 .headers .navbar{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +44,6 @@ body{
 }
 .headers .navbar .nav-list{
     list-style-type:none ;
-    border: 1px solid black;
     display: flex;
     gap: 50px;
     padding-top: 63px;
@@ -71,7 +68,6 @@ body{
 .head-content{
     width: 862px;
     margin-inline:auto;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,32 +121,26 @@ body{
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .main .team{
     width: 1136px;
     display: flex;
     align-items: center;
-    gap: 73px;
-    border: 1px solid black;
-
+    gap: 60px;
 }
 .main .team .gallery{
-    /* width: 1200px; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-row-gap:24px;
     grid-column-gap:24px;
 }
 .gallery img{
-    width: 342px;
-    height: 342px;
+    width: 300px;
+    height: 300px;
 }
 .section-content{
     width: 537px;
-    border: 1px solid black;
-
 }
 .content-title{
     font-style: normal;
@@ -159,7 +149,6 @@ body{
     line-height: 53px;
     margin-bottom: 24px;
     color:var(--secondary-color);
-    border: 1px solid black;
 }
 .content-description{
     font-style: normal;
@@ -172,30 +161,25 @@ body{
 }
 /* Feature section */
 .feature-section{
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     margin-top: 169px;
-    /* position: relative; */
+    margin-bottom: 130px;
 }
 .architect-containter{
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     gap:50px
 }
 .architect-containter .features{
-    /* border: 1px solid black; */
     width:580px;
-    /* background-color: #727272; */
 }
 .architect-containter .architect-image{
     width: 500px;
-    /* border: 1px solid black; */
 }
 .architect-image img{
     width: 100%;
-    height: 100%;
+    height: 95%;
 }
 /* ------------------- */
 .feature-heading-container{
@@ -245,7 +229,6 @@ body{
     color: var(--secondary-color);
 }
 .feature-button{
-    /* width: 300px; */
     padding: 25px 26px;
     background-color: var(--primary-color);
     text-align: center;
@@ -267,4 +250,105 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 40px;
+}
+/*-----fact section--------- */
+.facts-section{
+    margin-bottom: 100px;
+}
+.facts{
+    display: flex;
+    justify-content: space-around;
+    gap:100px;
+    padding: 20px;
+}
+.fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 40px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+}
+
+.facts-section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--third-color);
+    margin-bottom: 24px;
+}
+.facts-section-caption{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:var(--secondary-color);
+    margin-bottom: 80px;
+}
+
+.fact-number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color:#424242;
+}
+.fact-caption{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--secondary-color);    
+}
+
+/* ----Sponsor Section---------- */
+.sponsor-section{
+}
+.sponsor-section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sponsor-section-caption{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 44px;
+}
+/* problem */
+.sponsors{
+    display: flex;
+    gap: 120px;
+}
+.sponsor{
+    /* background-color:#727272 ; */
+    
+}
+.sponsor .img img{
+    mix-blend-mode:luminosity;
+}
+/* problem */
+
+/* Footer */
+.footer{
+    margin: 130px 240px;
+    border-radius: 5px;
+}
+.footer p{
+    background-color: #FFF4E7;
+    padding:39px;
+    text-align: center;
+    color: #424242;
 }
