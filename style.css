@@ -442,16 +442,20 @@ body{
         margin-inline:20px;
     }
     .feature-heading-container{
-        text-align: center;
-        padding-left:0;
-        padding-right:0;
-        border: none;
+        margin: 0 auto;
+        border:none;
     }
     .feature-section-title{
-        padding-left: 0
+        width: 100vw;
+        margin: 40px auto;
+        text-align: center;
+        padding:0;
     }
+    
     .feature-section-description{
-        padding:10px;
+        width: 100vw;
+        margin: 40px auto;
+        text-align: center;
     }
     .architect-containter .architect-image {
         width: 300;
@@ -477,8 +481,13 @@ body{
         align-items: center;
         gap:50px;
     }
+    .footer{
+        margin: 0;
+    }
+
 }
 
+/* --------414---------------- */
 @media screen and (max-width:414px){
     .navbar,.team,.architect-containter,.facts,.sponsors,.cta{
         flex-direction: column;
@@ -524,13 +533,14 @@ body{
 
     
     .feature-heading-container{
-        text-align: center;
-        padding-left:0;
-        padding-right:0;
-        border: none;
+        margin: 0 auto;
+        border:none;
     }
     .feature-section-title{
-        padding-left: 0
+        width: 100vw;
+        margin: 40px auto;
+        text-align: center;
+        padding:0;
     }
     
     .feature-section-description{
@@ -586,13 +596,14 @@ body{
         width: 100vw;
         margin: 20px auto;
     }
+    .footer{
+        margin: 0;
+    }
+
 
 }
 
-
-
-
-
+/* ..............390...................... */
 @media screen and (max-width:390px){
     .navbar,.team,.architect-containter,.facts,.sponsors,.cta{
         flex-direction: column;
@@ -645,15 +656,17 @@ body{
         margin: 20px auto;
         text-align: center;
     }
-    .feature-heading-container {
-        width: 100vw;
-        margin: 20px auto;
-        border: 0;
-        text-align: center;
+    .feature-heading-container{
+        margin: 0 auto;
+        border:none;
     }
     .feature-section-title{
-        padding-left: 0
+        width: 100vw;
+        margin: 40px auto;
+        text-align: center;
+        padding:0;
     }
+    
     .feature-section-description{
         width: 100vw;
         margin: 40px auto;
@@ -697,6 +710,9 @@ body{
     .cta-title,.cta-caption{
         width: 100vw;
         margin: 20px auto;
+    }
+    .footer{
+        margin: 0;
     }
 
 }
