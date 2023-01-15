@@ -18,6 +18,7 @@ body{
     --third-color:#131313;
     --bg-alpha: rgba(255, 144, 14, 0.1);
 }
+/* utility classes */
 .color-dark-bold{
     color: var(--third-color);
     font-weight: 700;
@@ -26,7 +27,9 @@ body{
     color: var(--primary-color);
     font-weight: 700;
 }
-
+.hide{
+    display: none;
+}
 /*------------HEADER-------------- */
 .headers{
     background-color: var(--bg-alpha);
@@ -278,6 +281,14 @@ body{
     padding: 40px;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+    overflow: hidden;
+}
+.fact:hover{
+    background-color:var(--primary-color);
+    transform: translateY(-45px);
 }
 
 .facts-section-title{
@@ -310,6 +321,31 @@ body{
     font-size: 20px;
     line-height: 23px;
     color: var(--secondary-color);    
+}
+/* ----------CTA section---------- */
+.cta{
+    margin: 130px 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.cta-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--third-color);
+    margin-bottom: 24px;
+}
+.cta-caption{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:var(--secondary-color);
+    margin-bottom: 50px;
 }
 
 /* ----Sponsor Section---------- */
